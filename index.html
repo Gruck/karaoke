@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="resources/main.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic,700,700italic,800,800italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="resources/data.js"></script>
+		<script type="text/javascript" src="resources/main.js"></script>
+
+		<title>Karaoke #333 style</title>
+	</head>
+
+	<body>
+		<header>
+
+			<h1>Ready to sing for your life ?</h1>
+			<button id="newGame">Nouvelle Manche</button>
+			<audio src="jingle.mp3" id="jingle"></audio>
+			
+		</header>
+
+		<main>
+			<span class="image"><img src="resources/logo.png" alt="Fuck The Voice" /></span>
+			<div>
+				<section id="themeSection">
+					<h2>Thème :</h2>
+					<p id="themeTitle"></p>
+					<p id="themeDescription"></p>
+				</section>
+
+				<section id="gameModeSection">
+					<h2>Mode de Jeu :</h2>
+					<p id="gameMode"></p>
+				</section>
+
+				<section id="playersSection">
+					<h2>Joueurs :</h2>
+					<ul id="players">
+					</ul>
+				</section>
+
+				<section id="handicapSection">
+					<h2>Handicap ?</h2>
+					<p id="handicapTitle"></p>
+					<p id="handicapDescription"></p>
+				</section>
+
+				<aside>
+					
+				</aside>
+			</div>
+		</main>
+
+		<footer>
+			<p id="footer"></p>
+		</footer>
+	</body>
+
+</html>

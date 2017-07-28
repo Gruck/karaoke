@@ -1,0 +1,175 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+/* Box Model */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* Basic */
+
+	html, body {
+			background: #1c1d26;
+	}
+
+	header {
+		margin-top: 2em;
+		text-align: center;
+	}
+	body {
+			margin: 0;
+			font-family: "Roboto";
+	}
+	
+	h1{
+		font-size: 3.5em;
+		color : #b00001;
+		display: inline-block;
+		width: 70%;
+		margin-bottom: 1em;
+
+	}
+	h2{
+		font-size: 2.5em;
+		font-weight: bold;
+		color: #ffffff;
+	}
+
+	p, li{
+		font-size: 1.5em;
+		padding-top : 1em;
+	}
+
+	div{
+			width : 60%;
+			display: inline-block;
+			vertical-align: middle;
+	}
+
+	section{
+			margin-left: 3%;
+			margin-right: 3%;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			width: 42%;
+			display : inline-block;
+			vertical-align: top;
+	}
+
+	button{
+	display: inline-block;
+	margin-right: 0;
+	background: -webkit-linear-gradient(#70030F, #b00001);  
+	background: linear-gradient(#70030F, #b00001);
+	border: none;
+	border-radius : 5px;
+	padding: 8px 20px;
+	margin-top: 5%;
+	font-family: "Roboto";
+	font-size: 1em;
+	text-align: right;
+	font-weight: bold;
+}
+
+#themeDescription, #players, #handicapDescription{
+	color: #b00001;
+}
+
+#themeDescription{
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#themeTitle, #gameMode, #handicapTitle {
+	color : #bdbec0;
+}
+/* Image */
+
+	.image {
+		border-radius: 4px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		vertical-align: middle;
+	}
+
+		.image img {
+			border-radius: 4px;
+			display: block;
+			opacity : 0.4;
+		}
+
+		.image.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
